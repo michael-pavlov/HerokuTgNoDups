@@ -15,7 +15,7 @@ Init
 
 .. code-block:: python
 
-  duplicate_controll = herokutelegramnodups.HerokuTgNoDups()
+  duplicate_controll = herokutelegramnodups.HerokuTgNoDups(lifetime_seconds = 2)
   duplicate_controll.run()
 
 Message processing
